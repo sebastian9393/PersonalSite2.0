@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Lobster', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Arvo', serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Arvo', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Courgette', cursive;
+*/
+.h2-title {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skills {}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.foto-perfil {
+  margin-top: 30px;
+}
+
+.modules-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cyber-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.Hello-description {
+  color: #40514E;
+  width: 30%;
+  margin: 0 auto 70px auto;
+}
+
+.hr-dotted {
+  width: 5%;
+  border: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  margin: 70px auto 70px auto;
+  color: gray;
+}
+
+.developer-description {
+  color: #40514E;
+}
+
+.cyber-security-description {
+  color: #40514E;
+}
+
+.contactme-description {
+  margin: 50px auto 50px auto;
+  width: 30%;
+}
+
+.btn {
+  box-shadow: 0px 0px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 9px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 32px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.p-footer {
+  padding: 25px;
+  color: #EAF6F6;
+  margin: 0;
+}
+
+.footer-link-linkein {
+  margin-right: 30px;
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-link-linkein:hover {
+  color: #EAF6F6;
+}
+
+.footer-link-twitter {
+  margin-right: 30px;
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-link-twitter:hover {
+  color: #EAF6F6;
+}
+
+.footer-link-appbrewery {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-link-appbrewery:hover {
+  color: #EAF6F6;
+}
+
+/*    Puede verse como el anti float
+.developer-description {
+  clear: left;
+}
+
+.cyber-security-description {
+  clear: right;
+}
+*/
